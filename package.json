@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --ui tdd tests/callbacks.js"
+    "test": "mocha"
   },
   "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
   "license": "MIT",
@@ -14,5 +14,8 @@
     "jade": "^1.11.0",
     "node-cmd": "^3.0.0",
     "node-ssh": "^5.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
